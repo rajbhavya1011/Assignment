@@ -1,3 +1,4 @@
+//Task 1: To check the divisibility of a number from 3,5,6,7,8
 #include <stdio.h>
 int main()
 {
