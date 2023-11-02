@@ -43,3 +43,50 @@ int main()
 		printf("It is neither divisible by 3,5,6,7,8");
 	}
 }
+
+//Task 2:Using switch case
+#include <stdio.h>
+	main()
+	{
+		int a,n;
+		printf("Enter any number");
+		scanf("%d",&a);
+		n=a%10;
+		switch(n)
+		{
+			case 1:
+				printf("Remainder when divided by 10 is %d",n);
+				break;
+			case 2:
+				printf("Remainder when divided by 10 is %d",n);
+				break;
+			case 3:
+				printf("Remainder when divided by 10 is %d",n);
+				break;
+			case 4:
+				printf("Remainder when divided by 10 is %d",n);
+				break;
+			case 5:
+				printf("Remainder when divided by 10 is %d",n);
+				break;
+			case 6:
+				printf("Remainder when divided by 10 is %d",n);
+				break;
+			case 7:
+				printf("Remainder when divided by 10 is %d",n);
+				break;
+			case 8:
+				printf("Remainder when divided by 10 is %d",n);
+				break;
+			case 9:
+				printf("Remainder when divided by 10 is %d",n);
+				break;
+			case 10:
+				printf("Remainder when divided by 10 is %d",n);
+				break;
+				
+				
+				
+		}
+	}
+
