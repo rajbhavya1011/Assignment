@@ -30,3 +30,4 @@ void main()
         }
         printf("\n");
     }
+//Task 3: Finding cofactor of a Matrix
