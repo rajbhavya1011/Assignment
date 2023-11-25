@@ -56,6 +56,14 @@ for(int i=0;i<3;i++)
         c[i][j] = (a[0][0]*a[1][1]) - (a[0][1]*a[1][0]);
     }
 }
+ for(int i=0;i<3;i++)
+    {
+        for(int j=0;j<2;j++)
+        {
+           c[i][j] = c[j][i];
+        }
+         printf("\n");
+    }
 printf("Adjoint of 1st Matrix is:\n");
 for(int i=0;i<3;i++)
 {
@@ -76,16 +84,19 @@ int det=0;
          if(j==2)
         det = det + a[0][j]*((a[1][0]*a[2][1]) - (a[1][1]*a[2][0]));   
     }
+    if (det == 0)
+    printf("Inverse is not possible.");
+    else{
     printf("Inverse of 1st Matrix is:\n");
 for(int i=0;i<3;i++)
 {
     for(int j=0;j<3;j++)
     {
-        printf("%d ",c[i][j]/det);
+        printf("%.2f ",c[i][j]/det);
     }
     printf("\n");
 }
-}
+}}
 
 
 
